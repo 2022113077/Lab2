@@ -38,6 +38,7 @@
  *
  */
 class Solution8 {
+    // 使用深度搜索进行查找
     void dfs(char[][] grid, int r, int c) {
         int nr = grid.length;
         int nc = grid[0].length;
